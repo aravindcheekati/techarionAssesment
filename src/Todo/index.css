@@ -8,15 +8,11 @@
     padding: 0px;
     margin: 0px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 .todolist-container li {
-    width: 30%;
-    height: 100px;
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
